@@ -8,11 +8,9 @@ export default function App() {
     const [newsList, setNewsList] = useState([])
 
     useEffect(()=>{
-
         fetch('http://127.0.0.1:8000/api/v1/get-list-view').then(data=>{
             return data.json()
-        })
-            .then(res=>{
+        }).then(res=>{
                 console.log(res)
                 setNewsList(res)
                 setNewsLoading(false)
