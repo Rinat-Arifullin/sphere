@@ -1,0 +1,29 @@
+.newsCard{
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    background: #ffffff14;
+    backdrop-filter: blur(10px);
+    transition: .4s  ease-in;
+    font-size: 11px;
+}
+
+.toNews{
+    overflow: hidden;
+    transition: .3s ease-in;
+    opacity: 0;
+    text-align: right;
+}
+
+.toNews a {
+    text-decoration: none;
+    color: black;
+}
+
+.newsCard:hover {
+    background: white;
+    color: black;
+}
+
+.newsCard:hover .toNews{
+    opacity: 1;
+}

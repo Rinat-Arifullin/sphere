@@ -4,7 +4,20 @@
 }
 
 body {
-    overflow: hidden;
     margin: 0;
     background: #000001;
+    height: 100vh;
+    overflow: hidden;
 }
+* {
+    font-family: 'Unbounded', cursive;
+}
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+p {
+    word-spacing: 5px;
+    line-height: 1.7em;
+}
+
+
