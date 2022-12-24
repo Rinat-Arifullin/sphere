@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 
 import './loading.css';
 
-export default function Loading (isLoading){
+export default function Loading ({isLoading}){
 
     if(!isLoading){
         return null
