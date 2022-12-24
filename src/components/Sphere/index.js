@@ -10,7 +10,7 @@ export default function Sphere(){
     return (
         <div className={'wrapper'}>
             <Loading isLoading={loading}/>
-            {/*<Spline scene="https://prod.spline.design/VLZnQ19L7N4rfGeI/scene.splinecode"  onLoad={()=>setLoading(false)} />*/}
+            <Spline scene="https://prod.spline.design/VLZnQ19L7N4rfGeI/scene.splinecode"  onLoad={()=>setLoading(false)} />
         </div>
     );
 }
